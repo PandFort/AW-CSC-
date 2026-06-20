@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Updated-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
-A high-performance player model changer Lua script designed for compatible Counter-Strike 2 cheat loaders (supporting Aimware-like Lua API, including FFI, custom GUI, memory, and entity systems). This script allows you to scan, preload, and apply custom compiled model files (`.vmdl_c`) to players in game.
+A high-performance player model changer Lua script designed specifically for **AIMWARE** in Counter-Strike 2. This script utilizes FFI, custom GUI, direct memory operations, and entity systems to allow you to scan, preload, and apply custom compiled model files (`.vmdl_c`) to players in game.
 
 ---
 
@@ -68,7 +68,11 @@ Put your custom character models (`.vmdl_c` files) into:
 *(Create the subfolders if they do not exist)*
 
 ### Step 2: Load the Script
-Load `custom_skins.lua` through your compatible cheat loader's Lua tab/console.
+
+> [!IMPORTANT]
+> You **must** enable the FFI (Foreign Function Interface) option in the AIMWARE settings/Lua tab before loading this script, as it relies heavily on direct memory operations.
+
+Load `custom_skins.lua` through the AIMWARE Lua manager.
 
 ### Step 3: Configure in the GUI
 1. Open the cheat menu to display the **Model Changer** interface.
