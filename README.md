@@ -25,6 +25,7 @@ A high-performance player model changer Lua script designed specifically for **A
 > [!IMPORTANT]
 > Please respect the original author's rights and keep this credit section intact when sharing or modifying the script.
 
+* **Original LUA Code**: [nmb_i](https://github.com/ggggggh2020/aimware-lua/blob/main/aw自定义人物模型.lua)
 * **Original Author**: [Planexx](https://aimware.net/forum/thread/180868) — Original logic, GUI implementation, and memory hooking design.
 * **Modified & Updated by**: **PandFort** — Offsets, memory pattern updates, compatibility with latest CS2 versions, and general maintenance.
 
